@@ -1,0 +1,33 @@
+/********************TAG Selector*******************/
+
+h1{
+  color: red;
+}
+
+img:hover{
+  background-color: silver;
+}
+/************* with the above example we cannot individually change the background
+color of the images, hence we will have to use class selector**********/
+
+/*******************Class Selectors*********/
+
+.pizza{
+  background-color: green;
+}
+.circular{
+  border-radius: 100%;
+}
+.bacon{
+  background-color: red;
+}
+
+
+/******************* ID Selectors **********************/
+
+#heading{
+  color: red;
+}
+
+/***** in the above ID selector the heading will take priority over h1 color red on
+line 3 of the code above**************************/
